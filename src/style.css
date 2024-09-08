@@ -1,0 +1,82 @@
+/* Importing Custom Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Layer */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    @apply lg:text-6xl text-3xl font-extrabold;
+  }
+  
+  h2 {
+    font-family: 'Inria Serif', serif;
+    @apply text-5xl font-bold;
+  }
+  
+  h3,
+  h4,
+  h6 {
+    font-family: 'Paprika', cursive;
+  }
+  
+  h3 {
+    @apply text-5xl;
+  }
+  
+  h4 {
+    @apply md:text-4xl text-3xl !leading-relaxed;
+  }
+  
+  h6 {
+    @apply font-bold text-[#253D57] leading-8;
+  }
+  
+  p {
+    font-family: 'Poppins', sans-serif;
+    @apply text-[0.95rem];
+  }
+  
+  button {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Utilities Layer */
+@layer utilities {
+  .btn {
+    @apply py-2 px-9 border-2 rounded-md rounded-br-3xl font-medium;
+  }
+  
+  .title {
+    @apply md:text-3xl text-2xl;
+  }
+  
+  .subtitle {
+    @apply text-gray-300;
+  }
+}
+
+/* Swiper Pagination Custom Styles */
+.swiper-pagination-bullet {
+  background-color: #75560c !important;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #dbc30c !important;
+  opacity: 1 !important;
+}

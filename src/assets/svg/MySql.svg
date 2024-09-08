@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="200" height="200">
+  <title>MySQL Logo</title>
+  <rect width="100%" height="100%" fill="#00758F"/>
+  <path d="M200 50c-50 0-90 40-90 90s40 90 90 90 90-40 90-90-40-90-90-90zm0 160c-39 0-70-31-70-70s31-70 70-70 70 31 70 70-31 70-70 70z" fill="#F29111"/>
+  <text x="50" y="350" font-family="Arial" font-size="48" fill="#FFFFFF">MySQL</text>
+  <path d="M150 100c0 20 20 20 20 40s-20 20-20 40 20 20 20 40-20 20-20 40" stroke="#00758F" stroke-width="5" fill="none"/>
+  <circle cx="170" cy="100" r="5" fill="#F29111"/>
+</svg>
